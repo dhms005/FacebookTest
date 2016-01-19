@@ -33,7 +33,6 @@ public class google_plus_login extends FragmentActivity implements
 
     /* Client used to interact with Google APIs. */
     private GoogleApiClient mGoogleApiClient;
-    private GoogleApiClient mGoogleApiClient2;
 
 
     /* A flag indicating that a PendingIntent is in progress and prevents
