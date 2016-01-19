@@ -24,13 +24,18 @@ import com.hindi.status.R;
 
 public class google_plus_login extends FragmentActivity implements
         GoogleApiClient.ConnectionCallbacks, OnConnectionFailedListener, ResultCallback<People.LoadPeopleResult> {
+
 // test command
+
+
     /* Request code used to invoke sign in user interactions. */
     private static final int RC_SIGN_IN = 0;
 
     /* Client used to interact with Google APIs. */
     private GoogleApiClient mGoogleApiClient;
     private GoogleApiClient mGoogleApiClient2;
+
+
     /* A flag indicating that a PendingIntent is in progress and prevents
      * us from starting further intents.
      */
